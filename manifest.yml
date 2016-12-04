@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: greenland2
+  host: greenland2
+  disk_quota: 1024M
+  services:
+  - greenland2-AdvancedMobileAccess
+  - greenland2-imfpush
+  - greenland2-cloudantNoSQLDB
